@@ -199,7 +199,9 @@ mu1 <- c(118,120,122)
 backward_log(logini_pdf, logQ, mu1, v1)
 forward_log(logini_pdf, logQ, mu1, v1)
 
-# We have obtained the negative log likelihood, with backward log probability -590.4762 and forward log probability -1797.43. By adjusting the parameters, we see that a more concentrated tpm has higher likelihood. A less accurate mean will lead to lower likelihood.
+# We have obtained the negative log likelihood, with backward log probability -590.4762 
+# and forward log probability -1797.43. By adjusting the parameters, we see that a more 
+# concentrated tpm has higher likelihood. A less accurate mean will lead to lower likelihood.
 
 
 # Parameters estimation
